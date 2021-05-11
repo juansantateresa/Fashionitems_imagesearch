@@ -1,1 +1,0 @@
-# Fashionitems_imagesearch
