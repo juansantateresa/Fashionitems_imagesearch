@@ -3,7 +3,7 @@ from PIL import Image
 from img_search import similar_five_prediction
 
 def run():
-  streamlit.title('Zalando Fashion Items Image Search')
+  streamlit.title('Fashion Items Image Search')
   uploaded_file = streamlit.file_uploader("Choose an image of clothing and search five similar", type=["png", "jpg"])
   if uploaded_file is not None:
     img = Image.open(uploaded_file)
