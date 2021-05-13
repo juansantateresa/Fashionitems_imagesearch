@@ -30,7 +30,7 @@ You can run the App it easily following this instructions.
 
 1. Sign in free in www.ngrok.com and get your [authtoken](https://ngrok.com/docs)
 2. Open [01_Production.ipynb](https://github.com/juansantateresa/Fashionitems_imagesearch/blob/main/Production/Notebooks/01_Production.ipynb)
-3. Upload to runtime session content folder of Colab these utils files: app.py, img_search.py, model_4.h5, test_pickle (model_4.h is a +300mb file so it maybe takes some time)
+3. Upload to runtime session content folder of Colab these utils files: app.py, img_search.py, model_4.h5, test_pickle (model_4.h5 is a +300mb file so it maybe takes some time)
 4. Introduce your authoken in !ngrok authoken xxxx cell.
 5. Execute all Cells
 6. Click on ngrok url generated 
