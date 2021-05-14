@@ -7,7 +7,7 @@ This repo contains code and documentation for the development of an image search
 
 Repo contains 2 main folders. First of all, development folder includes notebooks with the development of the models, utils and preprocess workflows and production folder contains the notebooks prepared to launch the App
 
-All the code is intended to be open in [Google Colab](colab.research.google.com/) and all the files, model weights, variables etc. created in the process are stored in runtime envirorment or google drive, in order to avoid open any files or notebooks in local. Also is a good solution for pip install packages on the go in Colab virtual envirorment.
+All the code is intended to be open in [Google Colab](colab.research.google.com/) and all the files, model weights, variables etc. created in the process are stored in runtime envirorment or google drive, in order to avoid open any files or notebooks in local. Also all pip installation requirements are planned to be done on the go, executing cells.
 
 
 ## Data
@@ -28,12 +28,13 @@ In this project there is a Streamlit App for uploading images and search similar
 
 You can run the App it easily following this instructions.
 
-1. Sign in free in www.ngrok.com and get your [authtoken](https://ngrok.com/docs)
-2. Open [01_Production.ipynb](https://github.com/juansantateresa/Fashionitems_imagesearch/blob/main/Production/Notebooks/01_Production.ipynb)
-3. Upload to runtime session content folder of Colab these utils files: app.py, img_search.py, model_4.h5, test_pickle (model_4.h5 is a +300mb file so it maybe takes some time)
-4. Introduce your authoken in !ngrok authoken xxxx cell.
-5. Execute all Cells
-6. Click on ngrok url generated 
+1. Clone the repository
+2. Sign in free in www.ngrok.com and get your [authtoken](https://ngrok.com/docs)
+3. Open [01_Production.ipynb](https://github.com/juansantateresa/Fashionitems_imagesearch/blob/main/Production/Notebooks/01_Production.ipynb)
+4. Upload to runtime session content folder of Colab these utils files: app.py, img_search.py, model_4.h5, test_pickle (model_4.h5 is a +300mb file so it maybe takes some time)
+5. Introduce your authoken in !ngrok authoken xxxx cell.
+6. Execute all Cells
+7. Click on ngrok url generated 
 
 
 
