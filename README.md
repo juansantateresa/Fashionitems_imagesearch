@@ -14,7 +14,7 @@ All the code is intended to be open in [Google Colab](colab.research.google.com/
 
 I've used imageset from [Zalando MNIST](https://github.com/zalandoresearch/fashion-mnist) which is a dataset of 60,000 train images and 10,000 test images released in 2017 to provide an alternative MNIST dataset for benchmarking Machine Learning Models.
 
-For this project Data is stored raw in free google drive links and its access is detailed in [first notebook](https://github.com/juansantateresa/Fashionitems_imagesearch/blob/2d9f275e9e4721adedaee5e0d28c9e95be4830eb/Development/01_Data_Adquisition_and_Preprocessing.ipynb) of development folder. 
+For this project Data is stored raw in free google drive links and its access is detailed in [first notebook](https://github.com/juansantateresa/Fashionitems_imagesearch/blob/2d9f275e9e4721adedaee5e0d28c9e95be4830eb/Development/01_Data_Adquisition_and_Preprocessing.ipynb) of development folder. Basically links are prepared to download to Google Colab session without changing any path.
 
 ## Tools used
 
